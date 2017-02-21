@@ -1,3 +1,8 @@
+This programme developed in C++ includes a primitive calcualotr using a basic function "if/else if".
+
+Basic mathematics operation included.
+
+
 #include <iostream>
 
 #include <windows.h>
