@@ -18,13 +18,13 @@ int main()
 	int product = 1;
 	int quotient = 1;
 
-	cout << "\nUnesite a i b\n";
+	cout << "\nEnter values a and b\n";
 	cin >> a;
 	cin >> b;
 
-	cout << "\nDOBRODOSLI U DIGITRON by MB\n";
+	cout << "\nWELCOME TO THE CALCULATOR by MB\n";
 
-	cout << "\nSlijedi odabir operacija\n";
+	cout << "\nChoose math operation\n";
 	cout << "\n1 for summing\n";
 	cout << "\n2 for subtraction\n";
 	cout << "\n3 for multiplication\n";
@@ -63,7 +63,6 @@ int main()
 	}
 
 	system("PAUSE");
-
 	return 0;
 }
 
