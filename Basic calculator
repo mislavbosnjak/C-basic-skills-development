@@ -1,0 +1,67 @@
+#include <iostream>
+
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+	int d;
+	int a, b;
+	int sum = 0;
+	double subtract = 0;
+	int product = 1;
+	int quotient = 1;
+
+	cout << "\nUnesite a i b\n";
+	cin >> a;
+	cin >> b;
+
+	cout << "\nDOBRODOSLI U DIGITRON by MB\n";
+
+	cout << "\nSlijedi odabir operacija\n";
+	cout << "\n1 for summing\n";
+	cout << "\n2 for subtraction\n";
+	cout << "\n3 for multiplication\n";
+	cout << "\n4 for division\n";
+
+	cout << "\nWhich operation do you seek?\n";
+	cin >> d;
+
+	if (d = 1)
+	{
+		sum = a + b;
+		cout << "\nEquation result is\n";
+		cout << sum;
+	}
+	else if (d = 2)
+	{
+		subtract = a - b;
+		cout << "\nEquation result is\n";
+		cout << subtract;
+	}
+	else if (d = 3)
+	{
+		product = a*b;
+		cout << "\nEquation result is\n";
+		cout << product;
+	}
+	else if (d = 4)
+	{
+		quotient = a / b;
+		cout << "\nEquation result is\n";
+		cout << quotient;
+	}
+	else if (d > 4)
+	{
+		cout << "\nYou have chosen the wrong nubmer\n";
+	}
+
+	system("PAUSE");
+
+	return 0;
+}
+
+
+
+
