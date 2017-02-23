@@ -33,25 +33,25 @@ int main()
 	cout << "\nWhich operation do you seek?\n";
 	cin >> d;
 
-	if (d = 1)
+	if (d == 1)
 	{
 		sum = a + b;
 		cout << "\nEquation result is\n";
 		cout << sum;
 	}
-	else if (d = 2)
+	else if (d == 2)
 	{
 		subtract = a - b;
 		cout << "\nEquation result is\n";
 		cout << subtract;
 	}
-	else if (d = 3)
+	else if (d == 3)
 	{
 		product = a*b;
 		cout << "\nEquation result is\n";
 		cout << product;
 	}
-	else if (d = 4)
+	else if (d == 4)
 	{
 		quotient = a / b;
 		cout << "\nEquation result is\n";
