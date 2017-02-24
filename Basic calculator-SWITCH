@@ -1,0 +1,73 @@
+Basic math operations calculator >> using the 'SWITCH' function;
+
+
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+	int x;
+	int a, b, c;
+	int sum = 0;
+	double subtract = 0;
+	int product = 1;
+	double quotient = 1;
+
+	cout << "\nWELCOME TO MB CALCULATOR\n";
+	cout << "\n___________________________\n";
+
+	cout << "\nEnter values (a), (b) and (c) please.\n";
+
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	cout << "\n_____________________________________\n";
+
+	cout << "\nNext, choose one of the following offered basic mathematic operations.\n";
+	cout << "\n______________________________________________________________\n";
+	cout << "\n1 for summing\n";
+	cout << "\n2 for subtraction\n";
+	cout << "\n3 for multiplication\n";
+	cout << "\n4 for division\n";
+	cout << "\n____________________\n";
+
+	cin >> x;
+
+	switch (x)
+	{
+	case (1) :
+		cout << "\nSumming operation chosen.\n";
+		sum = a + b + c;
+		cout << sum;
+		break;
+
+	case (2) :
+		cout << "\nSubtraction operation chosen.\n";
+		subtract = a - b - c;
+		cout << subtract;
+		break;
+
+	case (3) :
+		cout << "\nMultiplication operation chosen.\n";
+		product = a*b*c;
+		cout << product;
+		break;
+
+	case (4) :
+		cout << "\nDividig operation chosen\n";
+		quotient = a / b / c;
+		cout << quotient;
+		break;
+
+	default:
+		cout << "\nEntered number doesn't represent any of the offered operations.\n";
+	}
+
+	system("PAUSE");
+
+	return 0;
+
+}
+
